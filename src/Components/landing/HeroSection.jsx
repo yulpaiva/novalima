@@ -17,9 +17,9 @@ export default function HeroSection() {
       {/* Grid Pattern */}
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAgTSAwIDIwIEwgNDAgMjAgTSAyMCAwIEwgMjAgNDAgTSAwIDMwIEwgNDAgMzAgTSAzMCAwIEwgMzAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-50" />
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-24">
         <div className="text-center max-w-5xl mx-auto">
-          {/* Logo/Brand */}
+          {/* Logo/Brand }
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -35,6 +35,55 @@ export default function HeroSection() {
               <div className="absolute -inset-2 bg-gradient-to-r from-[#FF8C00] to-[#00F0FF] rounded-2xl blur-xl opacity-40" />
             </div>
           </motion.div>
+          
+
+          {/* Visual Engineering */}
+                  <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="mt-16"
+                  >
+                    <h3 className="text-3xl font-bold text-white text-center mb-8">
+                      ENGENHARIA VISUAL DE <GradientText variant="tech">IMPACTO</GradientText>
+                    </h3>
+          
+                    <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                      <div>
+                        <div className="text-center mb-3">
+                          <span className="px-4 py-2 rounded-full bg-white/10 text-white text-sm font-medium">
+                            FOTO ORIGINAL
+                          </span>
+                        </div>
+                        <div className="aspect-video rounded-xl overflow-hidden border border-white/20">
+                          <img
+                            src="/images/StrategiesSection5.jpg"
+                            alt="Foto original"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                      </div>
+          
+                      <div>
+                        <div className="text-center mb-3">
+                          <span className="px-4 py-2 rounded-full bg-gradient-to-r from-[#00F0FF] to-[#0075FF] text-white text-sm font-medium">
+                            TRATAMENTO PUBLICITÁRIO
+                          </span>
+                        </div>
+                        <div className="aspect-video rounded-xl overflow-hidden border-2 border-[#00F0FF]">
+                          <img
+                            src="/images/StrategiesSection6.jpg"
+                            alt="Tratamento"
+                            className="w-full h-full object-cover brightness-110 contrast-110"
+                          />
+                        </div>
+                      </div>
+                    </div>
+          
+                    <p className="text-center text-[#00F0FF] text-lg font-medium mt-8">
+                      Transformamos fotos comuns em anúncios de desejo.
+                    </p>
+                  </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 30 }}

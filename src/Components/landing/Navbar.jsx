@@ -43,10 +43,15 @@ export default function Navbar() {
               </div>
               <div className="absolute -inset-1 bg-gradient-to-r from-[#FF8C00] to-[#00F0FF] rounded-xl blur-lg opacity-30" />
             </div>
-            <div className="hidden sm:block">
-              <span className="text-xl font-bold text-white">Nova Lima</span>
-              <span className="block text-xs text-[#00F0FF] font-medium -mt-1">Marketing Digital</span>
+            <div className="flex flex-col leading-tight">
+              <span className="text-sm sm:text-xl font-bold text-white">
+                Nova Lima
+              </span>
+              <span className="text-[10px] sm:text-xs text-[#00F0FF] font-medium">
+                Marketing Digital
+              </span>
             </div>
+
           </a>
 
           {/* Desktop Navigation */}
