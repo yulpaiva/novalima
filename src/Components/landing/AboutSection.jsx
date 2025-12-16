@@ -40,7 +40,7 @@ export default function AboutSection() {
               <div className="absolute -inset-4 bg-gradient-to-r from-[#00F0FF]/20 to-[#FF8C00]/20 rounded-3xl blur-2xl" />
               <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border border-white/10">
                 <img
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80"
+                  src="/images/AboutSection.jpg"
                   alt="Equipe Nova Lima Marketing"
                   className="w-full h-full object-cover"
                 />

@@ -7,7 +7,7 @@ const strategies = [
   {
     title: 'ESTRATÉGIA: MODA E VAREJO',
     icon: ShoppingBag,
-    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&q=80',
+    image: "/images/StrategiesSection1.jpg",
     items: [
       'Carrossel de Produtos',
       'Remarketing (Perseguição)',
@@ -18,7 +18,7 @@ const strategies = [
   {
     title: 'ESTRATÉGIA: DELIVERY',
     icon: Package,
-    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80',
+    image: "/images/StrategiesSection2.jpg",
     items: [
       'Anúncios no Raio de 3km',
       'Ativação nos Horários de Fome',
@@ -123,7 +123,7 @@ export default function StrategiesSection() {
                 </div>
                 <div className="aspect-square rounded-xl overflow-hidden border border-white/20">
                   <img
-                    src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&q=80"
+                    src="/images/StrategiesSection3.jpg"
                     alt="Peça no cabide"
                     className="w-full h-full object-cover"
                   />
@@ -138,7 +138,7 @@ export default function StrategiesSection() {
                 </div>
                 <div className="aspect-square rounded-xl overflow-hidden border-2 border-[#FF8C00]">
                   <img
-                    src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=500&q=80"
+                    src="/images/StrategiesSection4.jpg"
                     alt="Editorial"
                     className="w-full h-full object-cover"
                   />
@@ -172,7 +172,7 @@ export default function StrategiesSection() {
               </div>
               <div className="aspect-video rounded-xl overflow-hidden border border-white/20">
                 <img
-                  src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80"
+                  src="/images/StrategiesSection5.jpg"
                   alt="Foto original"
                   className="w-full h-full object-cover"
                 />
@@ -187,7 +187,7 @@ export default function StrategiesSection() {
               </div>
               <div className="aspect-video rounded-xl overflow-hidden border-2 border-[#00F0FF]">
                 <img
-                  src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&q=80"
+                  src="/images/StrategiesSection6.jpg"
                   alt="Tratamento"
                   className="w-full h-full object-cover brightness-110 contrast-110"
                 />
