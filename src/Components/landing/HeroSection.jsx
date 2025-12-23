@@ -96,7 +96,7 @@ export default function HeroSection() {
                     </div>
                     <div className="aspect-square p-2 lg:p-6 flex items-center justify-center bg-gradient-to-br from-[#0A1525] to-[#050A14]">
                       <img
-                        src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6940790c3069e39c15eb0846/32b201223_image.png"
+                        src="/images/hamburguer2real.jpg"
                         alt="Tratamento Publicitário - Hambúrguer"
                         className="w-full h-full object-contain"
                       />
