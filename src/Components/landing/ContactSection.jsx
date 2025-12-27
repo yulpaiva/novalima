@@ -75,7 +75,7 @@ export default function ContactSection() {
                 </div>
               </div>
               
-              <GlowButton href="https://wa.me/5531999999999" className="w-full text-base sm:text-lg md:text-xl px-8 sm:px-10 py-5 sm:py-6">
+              <GlowButton href="https://wa.me/5531990687050" className="w-full text-base sm:text-lg md:text-xl px-8 sm:px-10 py-5 sm:py-6">
                 <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
                 <span className="hidden sm:inline">Chamar no WhatsApp Agora</span>
                 <span className="sm:hidden">WhatsApp Agora</span>
