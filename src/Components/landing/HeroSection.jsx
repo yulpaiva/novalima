@@ -35,7 +35,7 @@ export default function HeroSection() {
               </p>
 
               <GlowButton 
-                href="https://wa.me/5531999999999" 
+                href="https://wa.me/5531990687050" 
                 size="lg" 
                 className="text-sm lg:text-lg px-6 py-3 lg:px-8 lg:py-5 bg-gradient-to-r from-[#FF8C00] to-[#FF4500] hover:from-[#FF4500] hover:to-[#FF8C00]"
               >

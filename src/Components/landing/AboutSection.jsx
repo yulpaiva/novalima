@@ -114,7 +114,7 @@ export default function AboutSection() {
               ))}
             </div>
 
-            <GlowButton href="https://wa.me/5531999999999">
+            <GlowButton href="https://wa.me/5531990687050">
               Conhecer mais sobre nós
             </GlowButton>
           </motion.div>

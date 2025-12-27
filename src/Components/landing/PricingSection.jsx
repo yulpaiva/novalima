@@ -133,12 +133,12 @@ export default function PricingSection() {
 
                   {/* CTA */}
                   {plan.popular ? (
-                    <GlowButton href="https://wa.me/5531999999999" className="w-full">
+                    <GlowButton href="https://wa.me/5531990687050" className="w-full">
                       {plan.cta}
                     </GlowButton>
                   ) : (
                     <a
-                      href="https://wa.me/5531999999999"
+                      href="https://wa.me/5531990687050"
                       className={`block w-full px-8 py-4 text-center font-semibold rounded-xl border-2 ${
                         plan.popular ? 'border-[#FF8C00]' : 'border-[#00F0FF]'
                       } text-white hover:bg-white/5 transition-all duration-300`}

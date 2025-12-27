@@ -69,7 +69,7 @@ export default function Navbar() {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <GlowButton href="https://wa.me/5531999999999" size="sm">
+            <GlowButton href="https://wa.me/5531990687050" size="sm">
               Agendar Reunião
             </GlowButton>
           </div>
@@ -105,7 +105,7 @@ export default function Navbar() {
                 </a>
               ))}
               <div className="pt-4">
-                <GlowButton href="https://wa.me/5531999999999" className="w-full">
+                <GlowButton href="https://wa.me/5531990687050" className="w-full">
                   Agendar Reunião
                 </GlowButton>
               </div>
