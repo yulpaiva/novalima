@@ -7,8 +7,8 @@ import GlowButton from '../ui/GlowButton';
 const plans = [
   {
     name: 'Plano START',
-    price: '600',
-    period: 'mês',
+    price: '',
+    period: '',
     description: 'Ideal para começar com gestão profissional',
     features: [
       'Gestão de Facebook & Instagram Ads',
@@ -21,8 +21,8 @@ const plans = [
   },
   {
     name: 'Plano GROWTH',
-    price: '1000',
-    period: 'mês',
+    price: '',
+    period: '',
     description: 'Para escalar com máxima performance',
     features: [
       'Gestão Completa + Remarketing',
@@ -108,9 +108,9 @@ export default function PricingSection() {
                   <div className="mb-6">
                     <div className="flex items-baseline gap-2">
                       <span className={`text-5xl sm:text-6xl font-bold bg-gradient-to-r ${plan.gradient} bg-clip-text text-transparent`}>
-                        R$ {plan.price}
+                         {plan.price}
                       </span>
-                      <span className="text-gray-400">/{plan.period}</span>
+                      <span className="text-gray-400">{plan.period}</span>
                     </div>
                     <p className="text-sm text-gray-500 mt-2">(Gestão)</p>
                     <p className="text-xs text-gray-500">Valor pago ao Facebook não incluso</p>
