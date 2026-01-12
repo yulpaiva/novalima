@@ -36,17 +36,30 @@ export default function AboutSection() {
             className="relative"
           >
             {/* Main Image Container */}
-            <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-r from-[#00F0FF]/20 to-[#FF8C00]/20 rounded-3xl blur-2xl" />
-              <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border border-white/10">
-                <img
-                  src="/images/AboutSection.jpg"
-                  alt="Equipe Nova Lima Marketing"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#050A14] via-transparent to-transparent" />
-              </div>
-            </div>
+<div className="relative">
+  <div className="absolute -inset-4 bg-gradient-to-r from-[#00F0FF]/20 to-[#FF8C00]/20 rounded-3xl blur-2xl" />
+
+  <div className="relative aspect-[4/3] rounded-3xl overflow-hidden border border-white/10 bg-[#050A14]">
+    
+    {/* Fundo desfocado — preenche TODAS as lacunas */}
+    <img
+      src="/images/AboutSection.jpg"
+      alt=""
+      aria-hidden
+      className="absolute inset-0 w-full h-full object-cover blur-xl scale-110 opacity-40"
+    />
+
+    {/* Imagem principal — 100% proporcional */}
+    <img
+      src="/images/AboutSection.jpg"
+      alt="Equipe Nova Lima Marketing"
+      className="relative w-full h-full "
+    />
+
+    
+  </div>
+</div>
+
 
             {/* Floating Stats Card */}
             <motion.div
