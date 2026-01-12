@@ -69,17 +69,7 @@ export default function AboutSection() {
               transition={{ delay: 0.3 }}
               className="absolute -bottom-8 -right-8 max-w-xs"
             >
-              <div className="bg-[#050A14]/90 backdrop-blur-xl rounded-2xl border border-white/10 p-6 shadow-2xl">
-                <div className="grid grid-cols-3 gap-4">
-                  {stats.map((stat) => (
-                    <div key={stat.label} className="text-center">
-                      <stat.icon className="w-6 h-6 text-[#00F0FF] mx-auto mb-2" />
-                      <div className="text-xl font-bold text-white">{stat.value}</div>
-                      <div className="text-xs text-gray-400">{stat.label}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              
             </motion.div>
           </motion.div>
 
